@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    background-color: rgb(168,19,62);
+}
+nav{
+    width: 100vw;
+    background-color: rgb(0,77,152);
+    top: 0;
+}
+header{
+    background-image: url(plaatjes/teamfoto_bannerkopie.jpg);
+    background-color: rgb(168,19,62);
+    background-size: cover;
+    height: 100vh;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+nav ul li{
+    font-size: 2.2em;
+    padding: 1% 0%;
+    font-weight: 900;
+    margin-right: 4vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: crimson;
+}
+h1{
+    font-size: 9vh;
+    color: white;
+    padding-top: 2vh;
+    margin-left: 1em;
+}
+.slogan{
+    margin-left: 10vw;
+    padding-left: 4vw;
+    font-size: 6.8vh;
+    color: crimson;
+}
+.sloganplayers{
+    margin-left: 17vw;
+    padding-left: 4vw;
+    font-size: 6.8vh;
+    color: crimson;
+}
+section{
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(168,19,62);
+}
+h2{
+    font-size: 3em;
+    color: white;
+    margin: auto 25vw;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.homeinfo > p{
+    text-align: center;
+    font-size: 1.7em;
+    margin: auto 25vw;
+    margin-top: 0;
+    width: 50vw;
+    color:  white;
+}
+article{
+    width: 100vw;
+    position: relative;
+}
+article .homeinfo{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+}
+article .homeinfo:nth-child(1){
+    background-image: url(plaatjes/home_of_football.jpg);
+}
+article .homeinfo:nth-child(2){
+    background-image: url(plaatjes/camp_nou_evening.jpg);
+    background-size: cover;
+}
+article .homeinfo:nth-child(3){
+    background-image: url(plaatjes/elclassico.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+/*Players page begins here*/
+/*Color and height card*/
+.goalkeeper, .defenders, .midfield, .attack{
+    height: 120vh;
+}
+.goalkeeper{
+    background-color: rgb(237,187,0);
+    border: 3px solid rgb(199,157,0);
+}
+.defenders{
+    border: 3px solid rgb(136,16,50);
+}
+.midfield{
+    background-color: rgb(0,77,152);
+    border: 3px solid rgb(0,57,112);
+}
+.attack{
+    background-color: rgb(11,179,99);
+    border: 3px solid rgb(7,125,69);
+}
+article .card{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+/*Background image fo each player*/
+.valdes{
+    background-image: url(plaatjes/victor-valdes_cardkopie.jpg);
+    background-size: cover;
+}
+.alves{
+    background-image: url(plaatjes/dani_alves_cardkopie.jpg);
+    background-size: cover;
+}
+.puyol{
+    background-image: url(plaatjes/carles_puyol_cardkopie.jpg);
+    background-size: cover;
+}
+.koeman{
+    background-image: url(plaatjes/ronald_koeman_cardkopie.jpg);
+    background-size: cover;
+}
+.abidal{
+    background-image: url(plaatjes/eric_abidal_cardkopie.jpg);
+    background-size: cover;
+}
+.iniesta{
+    background-image: url(plaatjes/andres_iniesta_cardkopie.jpg);
+    background-size: cover;
+}
+.xavi{
+    background-image: url(plaatjes/xavi_cardkopie.jpg);
+    background-size: cover;
+}
+.cruijff{
+    background-image: url(plaatjes/cruijff_cardkopie.jpg);
+    background-size: cover;
+}
+.messi{
+    background-image: url(plaatjes/messi_cardkopie.jpg);
+    background-size: cover;
+}
+.ronaldo{
+    background-image: url(plaatjes/ronaldo_cardkopie.jpg);
+    background-size: cover;
+}
+.eto{
+    background-image: url(plaatjes/eto-cardkopie.jpg);
+    background-size: cover;
+}
+
+
+
+/*position top left color and size of text*/
+.position{
+    font-size: 15vh;
+    margin: 0;
+    width: 20vw;
+}
+.gk{
+    color: rgb(199,157,0);
+}
+.rb, .cb, .lb{
+    color: rgb(136,16,50);
+}
+.cm, .cam{
+    color: rgb(0,57,112);
+}
+.rw, .st, .lw{
+    color: rgb(7,125,69);
+}
+/*info color size position*/
+.cardhead{
+    position: relative;
+    bottom: 14vh;
+    margin: 0 auto;
+    font-size: 10vh;
+}
+.card > p{
+    text-align: center;
+    font-size: 1.7em;
+    margin: auto 25vw;
+    margin-top: 0;
+    width: 50vw;
+    color:  white;
+}
+.last{
+    height: 100vh;
+}
+
+
+
+
+/*Beginning of records page*/
+.facts{
+    height: 70vh;
+}
+.facthead{
+    text-align: left;
+    margin-left: 2vw;
+}
+.facttext{
+    width: 50vw;
+    margin: 5vh 24.4vw 5vh 10vw;;
+    color: white;
+    font-size: 4vh;
+}
+span{
+    text-align: left;
+    font-size: 10vh;
+    margin-right: 3vw;
+    color: rgb(237,187,0);
+}
+
+
+
+
+
+
+
+/*Beginning of contactpage*/
+.slogancontact{
+    margin-left: 18vw;
+    padding-left: 4vw;
+    font-size: 6.8vh;
+    color: crimson;
+}
+.contactheader{
+    height: auto;
+}
+input, textarea{
+    font-size: 2vh;
+    font-weight: 600;
+}
+.contactsec{
+    padding: 40px 0;
+}
+.contactsec h1{
+    text-align: center;
+    color: #ddd;
+}
+.contactsec > h2{
+    display: none;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contactformitem{
+    display: block;
+    width: 40vw;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    background-color: rgb(0,77,152);
+    padding: 20px 40px;
+    outline: none;
+    color: rgb(237,187,0);
+    transition: 0.5s;
+}
+.contactformtext:hover{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contactformitem{
+    resize: none;
+    height: 120px;
+}
+.btn{
+    float: right;
+    border: none;
+    background-color: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(0,77,152);
+    color: rgb(237,187,0);
+}
